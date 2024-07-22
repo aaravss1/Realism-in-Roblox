@@ -8,8 +8,7 @@ Welcome to the Roblox Lighting Guide! This guide aims to provide an overview of 
 2. [Types of Lights](#types-of-lights)
 3. [Settings and Parameters](#settings-and-parameters)
 4. [Tips for Effective Lighting](#tips-for-effective-lighting)
-5. [Examples](#examples)
-6. [Resources and Further Reading](#resources-and-further-reading)
+5. [Environmental Lighting](#Environmental-lighting)
 
 ## Introduction to Roblox Lighting
 
@@ -49,26 +48,8 @@ Roblox lighting settings can be adjusted using the Properties window in Studio. 
 - **Utilize Shadows**: Shadows add depth to your scenes and enhance realism.
 - **Consider Time of Day**: Adjust lighting settings to simulate different times of day or weather conditions.
 
-## Examples
+- ## Environmental lighting
+- **THE BEST METHOD TO IMPROVE LIGHTING IS AND ALWAYS WILL BE TO CHANGE LIGHTING TO FUTURE TECHNOLOGY**
 
-### Example 1: Outdoor Daylight Scene
-
-![Outdoor Scene](images/outdoor_scene.png)
-
-In this example, ambient lighting combined with directional light creates a realistic daylight effect.
-
-### Example 2: Spooky Dungeon
-
-![Dungeon Scene](images/dungeon_scene.png)
-
-Using dim ambient lighting and spotlights with soft shadows creates a mysterious and eerie atmosphere.
-
-## Resources and Further Reading
-
-- [Roblox Developer Hub](https://developer.roblox.com/en-us/)
-- [Roblox Studio Lighting Documentation](https://developer.roblox.com/en-us/articles/Lighting)
-- [Community Tutorials on YouTube](https://www.youtube.com/results?search_query=roblox+lighting+tutorial)
-
-Feel free to explore and experiment with Roblox lighting to create captivating and immersive game environments!
 
 
