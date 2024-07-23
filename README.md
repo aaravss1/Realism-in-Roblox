@@ -4,7 +4,7 @@
 
 ## Moreover, realism extends beyond visuals to include gameplay mechanics and simulations. Many games within Roblox incorporate realistic physics, weather systems, and day-night cycles, which enhance the authenticity of the virtual experience. For instance, driving simulations may feature realistic vehicle handling and road conditions, while survival games might simulate hunger, thirst, and environmental hazards.
 
-## Every Roblox game's approach to realism is different is what I am trying to say, in my opinion, In roblox there are mainly 3 things that create true realism.
+## Every Roblox game's approach to realism is different is what I am trying to say, in my opinion, In roblox there are mainly 3 things that create true lighting.
 
 # Lighting 
 
