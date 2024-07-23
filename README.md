@@ -47,4 +47,6 @@ Density value increase,Fog increase , 3
 ### The BlurEffect applies a Gaussian blur to the entire rendered game world. The strength of the blur is controlled by the BlurEffect.Size. Only one BlurEffect can be applied at once (the instance with the greatest Size takes priority).
 
 ## Like other post-processing effects, BlurEffect will only work while Enabled and when parented to Lighting or Workspace.CurrentCamera. Also, it may render differently on low-end devices and/or depending on your Studio settings (see the Quality Level settings in Rendering → Performance).
-
+```mermaid
+graph TD; A[Lighting] -->|A| C(Sun rays); A -->|B| D(Atmosphere); A -->|C| E(Blur effect); C --> |D| F(Intensity); C --> |E| G(Spread); D --> |F| H(Offset); D --> |G| I(Density); E --> |H| J(Size);
+```
