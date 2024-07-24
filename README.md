@@ -90,3 +90,34 @@ Density value decrease,Fog decrease, 1
 ```mermaid
 graph TD; A[Lighting] -->|A| C(Sun rays); A -->|B| D(Atmosphere); A -->|C| E(Blur effect); C --> |D| F(Intensity); C --> |E| G(Spread); D --> |F| H(Offset); D --> |G| I(Density); E --> |H| J(Size);
 ```
+## A closer look into the upper graph.
+```mermaid
+graph TD;
+    A[Roblox Lighting] -.->|A| B[Shadows]
+    A -.->|B| C[Global Illumination]
+    A -.->|C| D[Post-Processing]
+    B ==>|D| E[Dynamic Shadows]
+    B ==>|E| F[Static Shadows]
+    C ==>|F| G[Light Propagation]
+    C -.->|G| H[Light Baking]
+    D -.->|H| I[Depth of Field]
+    D ==>|I| J[Color Correction]
+    E -.->|J| K[Shadow Mapping]
+    F ==>|K| L[Shadow Filtering]
+    G -.->|L| M[Light Scattering]
+    G -.->|M| N[Ambient Occlusion]
+    H ==>|N| O[Light Mapping]
+    H -.->|O| P[Light Probes]
+    I ==>|P| Q[Bloom]
+    J ==>|Q| R[Tone Mapping]
+    K ==>|R| S[SSAO]
+    L ==>|S| T[Deferred Lighting]
+    M ==>|T| U[Volumetric Lighting]
+    N ==>|U| V[GI Probe]
+    O ==>|V| W[Reflections]
+    P ==>|W| X[Lighting Channels]
+    Q ==>|X| Y[Color Grading]
+    R ==>|Y| Z[Light Shafts]
+    S ==>|Z| AA[Post-Process Volume]
+```
+
