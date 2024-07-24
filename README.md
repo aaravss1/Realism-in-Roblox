@@ -39,6 +39,16 @@ graph TD;
   M -->|Edge| AC(EdgeRadialBlur);
 ```
 
+```mermaid
+sankey-beta
+Lighting, Sun rays, 1
+Lighting, Blur effect, 1
+Lighting, Atmosphere, 1
+Lighting, Time of day, 1
+Lighting, Shadows, 1
+Lighting, Lighting technology, 2
+```
+
 ## Lighting in Roblox plays a crucial role in creating atmosphere, setting moods, and enhancing the visual appeal of games or experiences created within the platform. Here's a detailed explanation of how lighting works in Roblox:
 
 ### 1. Lighting System Basics
