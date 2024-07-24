@@ -33,7 +33,12 @@ graph TD;
   J -->|Height| W(HeightFog);
   K -->|Thin| X(ThinMist);
   K -->|Thick| Y(ThickMist);
+  L -->|Camera| Z(CameraZoomBlur);
+  L -->|Object| AA(ObjectZoomBlur);
+  M -->|Center| AB(CenterRadialBlur);
+  M -->|Edge| AC(EdgeRadialBlur);
 ```
+
 ## Lighting in Roblox plays a crucial role in creating atmosphere, setting moods, and enhancing the visual appeal of games or experiences created within the platform. Here's a detailed explanation of how lighting works in Roblox:
 
 ### 1. Lighting System Basics
