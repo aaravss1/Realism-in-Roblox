@@ -63,6 +63,20 @@ graph TD
     F -->|Cons| D
     G -->|Cons| D
 ```
+```mermaid
+graph TD;
+    A[Future Lighting] -.->|Pros| B[Improved Performance]
+    A -.->|Pros| C[Dynamic Lighting Effects]
+    A -.->|Cons| D[High GPU Usage]
+    B ====>|Cons| D
+    C ====>|Cons| D
+    E[Shadow Map Lighting] -.->|Pros| F[Improved Shadows]
+    E -.->|Pros| G[Lower GPU Usage]
+    E -.->|Cons| D
+    F ====>|Cons| D
+    G ====>|Cons| D
+```
+
 ### Other Aspects of Roblox Lighting
 ## Graph 1: Lighting Performance Comparison
 ```mermaid
