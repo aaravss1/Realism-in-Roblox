@@ -80,7 +80,8 @@ graph TD
 ## Proportionality
 ```mermaid
 sankey-beta
-Density value increase,Fog increase , 3
+Density value increase,Fog increase , 1
+Density value decrease,Fog decrease, 1
 ```
 ## (C) Blur effect
 ### The BlurEffect applies a Gaussian blur to the entire rendered game world. The strength of the blur is controlled by the BlurEffect.Size. Only one BlurEffect can be applied at once (the instance with the greatest Size takes priority).
