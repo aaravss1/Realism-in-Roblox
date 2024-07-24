@@ -8,7 +8,31 @@
 
 # Lighting 
 ```mermaid
-graph TD; A[Lighting] -->|A| C(Sun rays); A -->|B| D(Atmosphere); A -->|C| E(Blur effect);
+graph TD;
+  A[Lighting] -->|Direct Sun| B(SunRaysEffect);
+  A -->|Ambient| C(Ambient);
+  A -->|Environment| D(Environment);
+  A -->|Blur| E(BlurEffect);
+  B -->|SunRays| F(SunRays);
+  B -->|GodRays| G(GodRays);
+  C -->|Global| H(GlobalAmbient);
+  C -->|Outdoor| I(OutdoorAmbient);
+  D -->|Fog| J(Fog);
+  D -->|Mist| K(Mist);
+  E -->|ZoomBlur| L(ZoomBlur);
+  E -->|RadialBlur| M(RadialBlur);
+  F -->|Quality| N(HighQuality);
+  F -->|Quantity| O(LowQuantity);
+  G -->|Beam| P(BeamEffect);
+  G -->|Scattering| Q(ScatterEffect);
+  H -->|Day| R(Daylight);
+  H -->|Night| S(Moonlight);
+  I -->|Sunset| T(Sunset);
+  I -->|Dawn| U(Dawn);
+  J -->|Distance| V(DistanceFog);
+  J -->|Height| W(HeightFog);
+  K -->|Thin| X(ThinMist);
+  K -->|Thick| Y(ThickMist);
 ```
 ## Lighting in Roblox plays a crucial role in creating atmosphere, setting moods, and enhancing the visual appeal of games or experiences created within the platform. Here's a detailed explanation of how lighting works in Roblox:
 
