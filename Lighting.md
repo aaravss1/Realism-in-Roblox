@@ -40,7 +40,54 @@ Roblox lighting settings can be adjusted using the Properties window in Studio. 
 - **Brightness**: Control the intensity of the light.
 - **Range**: Define how far the light extends.
 - **Shadow Softness**: Adjust the softness of shadows cast by the light.
+```mermaid
+ graph TD
+    A[Future lighting]; B[Shadow map];
+    B --> C(Pros); B --> D(Cons);
+    A --> E(Pros); A --> F(Cons);
+```
+Future vs. Shadow Map Lighting Comparison
+Sankey Diagram: Pros and Cons
+Below is a Sankey diagram illustrating the pros and cons comparison between Future and Shadow Map lighting technologies in Roblox:
 
+```mermaid
+graph TD
+    A[Future Lighting] -->|Pros| B[Improved Performance]
+    A -->|Pros| C[Dynamic Lighting Effects]
+    A -->|Cons| D[High GPU Usage]
+    B -->|Cons| D
+    C -->|Cons| D
+    E[Shadow Map Lighting] -->|Pros| F[Improved Shadows]
+    E -->|Pros| G[Lower GPU Usage]
+    E -->|Cons| D
+    F -->|Cons| D
+    G -->|Cons| D
+```
+### Other Aspects of Roblox Lighting
+## Graph 1: Lighting Performance Comparison
+```mermaid
+graph LR
+    A[Lighting System] -->|Performance| B[Future Lighting]
+    A -->|Performance| C[Shadow Map Lighting]
+    B -->|Better Performance| D[Frame Rate Stability]
+    C -->|Lower GPU Usage| D
+```
+### Graph 2: Visual Quality Comparison
+```mermaid
+graph LR
+    A[Lighting System] -->|Visual Quality| B[Future Lighting]
+    A -->|Visual Quality| C[Shadow Map Lighting]
+    B -->|Dynamic Lighting Effects| D[Realistic Environment]
+    C -->|Improved Shadows| D
+```
+### Graph 3: Developer Preferences
+```mermaid
+graph TD
+    A[Developers] -->|Preferences| B[Future Lighting]
+    A -->|Preferences| C[Shadow Map Lighting]
+    B -->|Ease of Use| D[Quick Implementation]
+    C -->|Advanced Control| D[Customization Options]
+```
 ## Tips for Effective Lighting
 
 - **Use Multiple Light Sources**: Combine different types of lights to create depth and realism.
