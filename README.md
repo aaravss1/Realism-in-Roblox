@@ -120,4 +120,20 @@ graph TD;
     R ==>|Y| Z[Light Shafts]
     S ==>|Z| AA[Post-Process Volume]
 ```
+## Dynamic shadows
+### Dynamic shadows are natively built into the roblox studio and roblox shadows. By Dynamic, we are referring to shadows that change with respect to surroundings, environment, type of object, etc.
 
+#### In the Lighting properties, locate the "Technology" property.
+#### Set the "Technology" property to "Legacy" or "Future" (depending on your preference and compatibility with other lighting settings in your game).
+#### Ensure that the "Shadows" property is enabled. This allows objects to cast shadows.
+
+## Static shadows
+### Roblox allows you to create terrain and parts within your game. To enable static shadows on these elements, follow these steps:
+#### Lighting Settings:
+#### ** Open the Roblox Studio and go to the "View" tab.
+#### ** Click on "Properties" to open the Properties window.
+#### ** Find the "Lighting" object in the Explorer panel or use the "Lighting" tab under "View" to access its properties.
+
+## Post processing effect.
+![image](https://github.com/user-attachments/assets/e692c454-369d-47f7-abb1-1f0d0d7419c6)
+### You can get this by adding it to lighting and changing values based on your preference.
